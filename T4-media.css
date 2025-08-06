@@ -1,0 +1,469 @@
+@media (max-width: 1440px){
+    .card{
+        height: 260px;
+        width: 205px;
+    }
+    .input{
+        margin-left: 190px;
+    }
+    .Main {
+        height:450px;
+        width: 90%;
+    }
+    .header-btn {
+        top: 60%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px){
+    ul{
+        gap: 13px;
+    }
+    .nav-bar img{
+        height: 50px;
+        
+    }
+    .input{
+        color: rgb(255, 255, 255);
+        height: 20px;
+        width: 300px;
+        margin-left: 80px;
+    }
+    .nav-bar{
+        gap: 10px;
+    }
+    .lang-btn{
+        height: 30px;
+        width: 30px;
+        font-size: 1.3rem;
+    }
+    .log-btn{
+        padding:8px 5px;
+        font-size: 0.8rem;
+    }
+    .plan-btn {
+        height: 32px;
+        width: 70px;
+        font-size: 0.7rem;
+    }
+    .header-btn {
+        top: 60%;
+        width: 100%;
+    }
+    .watch{
+        width: 110px;
+        height: 40px;
+        top: 398px;
+        margin-left: 150px;
+    }
+    .card{
+        height: 210px;
+        width: 140px;
+    }
+    .movie-card{
+        gap: 10px;
+    }
+    .watch-more{
+        margin-right: 10px;
+        font-size: 1.1rem;
+    }
+    .content-title{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .end-info{
+        margin-left: 40px;
+    }
+}
+@media (max-width: 768px){
+  .nav-bar {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .input {
+        width: 300px;
+        margin-right: 80px;
+    }
+
+    .nav-links,
+    .nav-actions {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: rgb(4, 4, 4);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 100;
+    }
+
+    .nav-actions {
+        top: 250px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-actions.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-actions {
+        padding: 10px 0;
+    }
+
+    .nav-actions button {
+        width: 80%;
+        margin: 5px auto;
+    }
+
+    .toggle-btn {
+        display: flex;
+    }
+    .Main {
+        width: 100%;
+        max-width: 768px;
+        height: 510px;
+        border-radius: 15px;
+    }
+    .Trending-section{
+        margin-left: 2px;
+    }
+    .header-btn {
+        top: 65%;
+        width: 100%;
+    }
+    .card {
+        margin-top: 20px;
+        height: 270px;
+        width: 220px;
+    }
+    .movie-card { /* This rule will be overridden by the 425px one if ordered correctly below */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+         
+    }
+    .Trending{
+        margin-left: 55px;
+    }
+    .left-links img{
+        height: 40px;
+        width: 80px;
+    }
+    .download{
+        font-size: 0.8rem;
+        padding: 16px;
+    }
+    .right-links{
+        margin-left:100px;
+    }
+    .footer-link a{
+        margin-left: 50px;
+    }
+    .content-links{
+        margin-left: 5px;
+    }
+    .content-title{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 0 10px;
+    }
+    .content-links ul li{
+        text-align: center;
+    }
+    .end-txt{
+        width: 750px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .end-info {
+        margin-left: 1px;
+    }
+}
+
+@media (max-width: 426px) {
+
+  .input {
+        width: 200px;
+        margin-right: 10px;
+    }
+    .discription {
+    display: none;
+  }
+    .Main {
+        width: 95%;
+        height: 280px;
+        margin-top: 2px;
+        border-radius: 10px;
+    }
+    .header-btn {
+        top: 55%;
+        width: 100%;
+    }
+    .prev-btn,
+    .next-btn {
+        width: 60px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+    .movie-card { /* This rule will now correctly override the 768px one */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        justify-items: center;
+    }
+    .card {
+        width:125px;
+        height: 180px;
+       
+    }
+    .card:hover {
+        border: 5px solid white;
+        height: 200px;
+        transform: scale(1.03);
+        z-index: 10;
+    }
+
+    .Movie-name{
+     font-size: 12px;
+    font-weight: 700;
+    
+}
+    .card-1 {
+        top: -40%;
+        height: 74px;
+    }
+    .Trending-section {
+        margin-left: 0;
+        padding: 0 10px;
+    }
+    .Trending-hedding {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+    .Trending {
+        margin-left: 0;
+        text-align: left;
+    }
+    .watch-more {
+        margin-right: 0;
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+    .social-media-links {
+        flex-direction:row;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .left-links, .right-links {
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .left-links img {
+        margin: 5px 0;
+        height: 20px;
+        width: 40px;
+    }
+    .right-links img {
+        margin: 0 0;
+        height: 20px;
+        width: 20px;
+    }
+    .social-media{
+    height:35px;
+    width: 35px;
+    }
+    .right-links .social-media {
+        margin: 5px;
+    }
+    .connect, .download {
+        text-align: center;
+        font-size: 7px;
+        padding: 0;
+        
+    }
+    .footer-section {
+        margin-left: 0;
+        padding: 0 10px;
+    }
+    .footer-info ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 13px;
+    }
+    .footer-link a {
+        margin-left: 0;
+        font-size: 0.9rem;
+        white-space: normal;
+    }
+    .content-links {
+        flex-direction: column;
+        gap: 15px;
+        margin: 0;
+        padding: 0 10px;
+    }
+    .content-links ul {
+        width: 100%;
+        text-align: center;
+    }
+    .content-links ul li {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .content-title {
+        font-size: 1rem;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .end-info {
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .end-txt {
+        width: auto;
+        font-size: 0.7rem;
+        padding: 0 10px;
+    }
+#no-results {
+  font-size: 1rem; 
+  padding: 20px 20px;
+}
+}
+
+@media (max-width: 376px) {
+  .input {
+        width: 150px;
+        margin-right: 10px;
+  }
+    .Main {
+        height: 250px;
+    }
+     .header-btn {
+        top: 50%;
+        width: 100%;
+    }
+    .movie-card {
+        grid-template-columns: repeat(3, 1fr); /* This will now correctly apply for very small screens */
+        gap: 10px;
+    }
+    .card {
+        height: 130px;
+        max-width: 112px;
+    }
+    .card:hover {
+        height: 150px;
+    }
+    .Movie-name{
+    top: 1px;
+    font-weight: 700;
+    
+}
+
+    .card-1 {
+        height: 53px;
+    }
+
+     .footer-link a {
+        margin-left: 0;
+        font-size: 0.79rem;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 320px) {
+    .Main {
+        height: 200px;
+    }
+  
+    .header-btn {
+        top: 43%;
+        width: 100%;
+    }
+    .prev-btn, .next-btn {
+        width: 50px;
+        height: 25px;
+        font-size: 0.8rem;
+    }
+    .movie-card {
+        grid-template-columns: repeat(3, 1fr); /* This will now correctly apply for very small screens */
+        gap: 10px;
+    }
+    .card {
+        height: 110px;
+        max-width: 90px;
+    }
+    .card:hover {
+        height: 130px;
+    }
+    .card-1 {
+        top: -35%;
+        height:42px;
+    }
+        .Movie-name{
+    top: 1px;
+    font-weight: 600;
+    
+}    
+    .input {
+        width: 95%;
+    }
+    .lang-btn, .plan-btn, .log-btn {
+        font-size: 0.6rem;
+        padding: 4px 8px;
+    }
+    .end-txt {
+        font-size: 0.65rem;
+    }
+    .Trending{
+    margin-bottom: 0px;}
+    #no-results {
+  font-size: 0.8rem; 
+  padding: 10px 10px;
+}
+
+ .social-media{
+    height:20px;
+    width: 20px;
+    }
+
+    .right-links img {
+        margin: 0 0;
+        height: 15px;
+        width: 15px;
+    }
+
+    .left-links, .right-links {
+        flex-direction:row;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .left-links img {
+        margin: 5px 0;
+        height: 20px;
+        width: 35px;
+    }
+
+    .footer-link a {
+        margin-left: 0;
+        font-size: 0.65rem;
+        white-space: normal;
+    }
+}
