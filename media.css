@@ -492,7 +492,7 @@ input{
         flex-direction:row;
         align-items: center;
         justify-content: center;
-        gap: 5px;
+        gap: 3px;
         margin-left: 0;
         margin-bottom: 20px;
         width: 100%;
@@ -505,7 +505,7 @@ input{
 
     .footer-link a {
         margin-left: 0;
-        font-size: 0.55rem;
+        font-size: 0.4rem;
         white-space: normal;
     }
 
@@ -538,6 +538,7 @@ input{
 }
 
 }
+
 
 
 
