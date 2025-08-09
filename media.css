@@ -362,7 +362,7 @@
     }
     .card {
         height: 130px;
-        max-width: 111px;
+        max-width: 110px;
     }
     .card:hover {
         height: 150px;
@@ -468,3 +468,4 @@
     }
 
 }
+
