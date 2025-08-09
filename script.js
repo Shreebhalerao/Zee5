@@ -135,6 +135,8 @@ const slideImages = () => {
   loginBtn.addEventListener('click', () => {
     if (mainContent) mainContent.style.display = 'none';  // Hides all sections
     if (loginPage) loginPage.style.display = 'block'; // Shows the login page
+    navLinks.classList.remove('active'); 
+    navActions.classList.remove('active');
   });
 
    closeBtn.addEventListener('click', () => {
@@ -173,4 +175,5 @@ input.addEventListener("input", () => {
     toggleButton.addEventListener('click', () => {
         navLinks.classList.toggle('active');
         navActions.classList.toggle('active');
+
     });
