@@ -99,6 +99,15 @@ const slideImages = () => {
 
   input.addEventListener('keyup', () => {
     const filter = input.value.toLowerCase().trim();
+       if (navLinks.classList.contains('active')) {
+        navLinks.classList.remove('active');
+        navActions.classList.remove('active');
+    }
+    // Close the login page if it's open when the user types
+    if (loginPage && loginPage.style.display === 'block') {
+        loginPage.style.display = 'none';
+        if (mainContent) mainContent.style.display = 'block';
+    }
 
     // Filter movie cards
     cards.forEach(card => {
@@ -177,3 +186,12 @@ input.addEventListener("input", () => {
         navActions.classList.toggle('active');
 
     });
+    // To close the mobile navigation menu when a nav link is clicked
+const navLinksList = document.querySelectorAll('.nav-links li a');
+navLinksList.forEach(link => {
+    link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        navActions.classList.remove('active');
+    });
+});
+
