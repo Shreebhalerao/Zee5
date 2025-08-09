@@ -506,6 +506,7 @@ input{
     .footer-link a {
         margin-left: 0;
         font-size: 6px;
+        color:red;
         white-space: normal;
     }
        .footer-info ul {
@@ -541,6 +542,7 @@ input{
 }
 
 }
+
 
 
 
