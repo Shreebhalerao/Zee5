@@ -380,6 +380,11 @@
     font-weight: 700;
     
 }
+    .Trending {
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom: -30px;
+}
 
     .card-1 {
         height: 53px;
@@ -454,6 +459,11 @@ input{
     .input {
         width: 95%;
     }
+    .Trending {
+    font-size: 16px;
+    margin-top:20px;
+    margin-bottom: -5px;
+}
     .lang-btn, .plan-btn, .log-btn {
         font-size: 0.6rem;
         padding: 4px 8px;
@@ -461,8 +471,7 @@ input{
     .end-txt {
         font-size: 0.65rem;
     }
-    .Trending{
-    margin-bottom: 0px;}
+   
     #no-results {
   font-size: 0.8rem; 
   padding: 10px 10px;
@@ -529,6 +538,7 @@ input{
 }
 
 }
+
 
 
 
