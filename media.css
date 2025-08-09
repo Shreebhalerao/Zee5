@@ -505,8 +505,11 @@ input{
 
     .footer-link a {
         margin-left: 0;
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         white-space: normal;
+    }
+       .footer-info ul {
+        gap: 6px;
     }
 
      .inner-box{
@@ -538,6 +541,7 @@ input{
 }
 
 }
+
 
 
 
