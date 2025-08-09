@@ -365,7 +365,7 @@
         width: 100%;
     }
     .movie-card {
-        grid-template-columns: repeat(3, 1fr); /* This will now correctly apply for very small screens */
+        grid-template-columns: repeat(3, 1fr); 
         gap: 8.5px;
     }
     .card {
@@ -392,12 +392,12 @@
 
       .footer-link a {
         margin-left: 0;
-        font-size: 6px;
+        font-size: 10px;
         color:red;
         white-space: normal;
     }
        .footer-info ul {
-        gap: 3px;
+        gap: 10px;
     }
         .inner-box{
     width: 330px;
@@ -509,13 +509,11 @@ input{
 
     .footer-link a {
         margin-left: 0;
-        font-size: 6px;
+        font-size: 10px;
         color:red;
         white-space: normal;
     }
-       .footer-info ul {
-        gap: 3px;
-    }
+   
 
      .inner-box{
     width: 300px;
@@ -546,6 +544,7 @@ input{
 }
 
 }
+
 
 
 
