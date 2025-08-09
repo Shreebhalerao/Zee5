@@ -390,6 +390,31 @@
         font-size: 0.79rem;
         white-space: normal;
     }
+        .inner-box{
+    width: 330px;
+    height: 420px;
+}
+
+input{
+  padding: 9px;
+}
+
+.signup {     
+    border: 2px solid rgb(9, 151, 156);
+ 
+}
+ 
+.signup-headder h1{
+        font-size: 1.7rem;
+}
+.btn{
+   text-align: center;
+   margin-top: 20px !important;
+}
+.photo{
+    top: -18px;
+    left: 255px;
+}
 }
 
 @media (max-width: 320px) {
@@ -475,6 +500,35 @@
         white-space: normal;
     }
 
+     .inner-box{
+    width: 300px;
+    height: 420px;
 }
+
+input{
+  padding: 9px;
+}
+
+.signup {     
+    border: 2px solid rgb(9, 151, 156);
+ 
+}
+ 
+.signup-headder h1{
+        font-size: 1.5rem;
+}
+.btn{
+   text-align: center;
+   margin-top: 20px !important;
+}
+
+.photo{
+    top: -18px;
+    left: 225px;
+
+}
+
+}
+
 
 
