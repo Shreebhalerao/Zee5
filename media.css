@@ -113,7 +113,7 @@
     }
 
     .nav-links li {
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     .nav-actions {
@@ -187,6 +187,14 @@
     }
     .end-info {
         margin-left: 1px;
+    }
+    .lang-btn {
+    height: 30px;
+    width: 40px;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
     }
 }
 
@@ -468,4 +476,5 @@
     }
 
 }
+
 
