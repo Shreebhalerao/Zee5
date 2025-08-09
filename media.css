@@ -390,10 +390,14 @@
         height: 53px;
     }
 
-     .footer-link a {
+      .footer-link a {
         margin-left: 0;
-        font-size: 0.79rem;
+        font-size: 6px;
+        color:red;
         white-space: normal;
+    }
+       .footer-info ul {
+        gap: 3px;
     }
         .inner-box{
     width: 330px;
@@ -542,6 +546,7 @@ input{
 }
 
 }
+
 
 
 
