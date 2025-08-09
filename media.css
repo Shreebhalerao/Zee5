@@ -296,7 +296,7 @@
     width: 35px;
     }
     .right-links .social-media {
-        margin: 5px;
+        margin: 2.5px;
     }
     .connect, .download {
         text-align: center;
@@ -311,11 +311,11 @@
     .footer-info ul {
         flex-direction: row;
         align-items: center;
-        gap: 13px;
+        gap: 10px;
     }
     .footer-link a {
         margin-left: 0;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         white-space: normal;
     }
     .content-links {
@@ -538,6 +538,7 @@ input{
 }
 
 }
+
 
 
 
