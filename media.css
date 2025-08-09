@@ -381,7 +381,7 @@
     
 }
     .Trending {
-    font-size: 16px;
+    font-size: 23px;
     margin-top:20px;
     margin-bottom: -30px;
 }
@@ -428,7 +428,7 @@ input{
     }
   
     .header-btn {
-        top: 43%;
+        top: 42%;
         width: 100%;
     }
     .prev-btn, .next-btn {
@@ -460,7 +460,7 @@ input{
         width: 95%;
     }
     .Trending {
-    font-size: 16px;
+    font-size: 22px;
     margin-top:20px;
     margin-bottom: -5px;
 }
@@ -538,6 +538,7 @@ input{
 }
 
 }
+
 
 
 
