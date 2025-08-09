@@ -432,12 +432,12 @@ input{
         font-size: 0.8rem;
     }
     .movie-card {
-        grid-template-columns: repeat(3, 1fr); /* This will now correctly apply for very small screens */
-        gap: 9.5px;
+        grid-template-columns: repeat(3, 1fr);  
+        gap: 9px;
     }
     .card {
         height: 110px;
-        max-width: 90px;
+        max-width: 89px;
     }
     .card:hover {
         height: 130px;
@@ -529,6 +529,7 @@ input{
 }
 
 }
+
 
 
 
